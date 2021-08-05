@@ -100,7 +100,8 @@
 
 .title-main {
     font-family: 'Courier New', Courier, monospace;
-    letter-spacing: 15px;
+    letter-spacing: 8px;
+    font-size: 3.25em;
 }
 
 .reg-title {

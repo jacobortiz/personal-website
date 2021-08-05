@@ -3,6 +3,9 @@ $(document).ready(navScroll);
 $(window).scroll(navScroll);
 var toggle = 0;
 
+var url = window.location.pathname;
+var filename = (url.substring(0, url.lastIndexOf('/')));
+filename = filename.substring(filename.lastIndexOf('/') + 1);
 
 function navScroll(){
     if($(window).width() >= 992) {
@@ -26,14 +29,18 @@ function navScroll(){
                 "padding-bottom":"10px",
                 "padding-top":"10px"
             })
-            if(!(filename === 'timelapse-auto-ramp') && !(filename === 'pathfinding')
-                && !(filename === 'air-conditioner-DIY') && !(filename === 'contact') && !(filename === 'yt-desc')
-                && !(filename === 'software') && !(filename === 'electronics')
-                && !(filename === 'films') && !(filename === 'photography')) {
-                $(".scrollN").css({
-                    "color":"white"
-                })
-            }
+            // if(!(filename === 'timelapse-auto-ramp') && !(filename === 'pathfinding')
+            //     && !(filename === 'air-conditioner-DIY') && !(filename === 'contact') && !(filename === 'yt-desc')
+            //     && !(filename === 'software') && !(filename === 'electronics')
+            //     && !(filename === 'films') && !(filename === 'photography')) {
+            //     $(".scrollN").css({
+            //         "color":"white"
+            //     })
+            // }
+
+            $(".scrollN").css({
+                "color":"white"
+            })
 
             $('#global-nav').removeClass('scrolled-nav');
           }
@@ -55,7 +62,6 @@ function navScroll(){
 $(".navbar-toggler").click(function() {
     toggle++;
     if(toggle % 2 == 1) {
-        console.log("ACTIVE TOGGLE");
         $('#global-nav').removeClass('toggle-height');
     }
     else {
