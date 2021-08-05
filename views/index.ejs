@@ -5,11 +5,11 @@
     <% include partials/nav %>
     <div class="home-img">
       <div class="home-div center">
-        <h1 class="title-main"><%= name %> </h1>
+        <h1 class="title-main"><%= name %></h1>
         <h3> aspiring software engineer and recent gradutate </h3>
       </div>
       <div class="home-south">
-        <h4><a class="stealth-link subPmin pad-X-0" href="#">Read More</a></h4>
+        <h4><a class="stealth-link sub-p-min pad-X-0" href="#">Read More</a></h4>
         <button class="smooth-scroll-btn" type="button">
           <img src="/images/Down-Arrow-White.png" width="30"/>
         </button>
@@ -26,7 +26,7 @@
             <p class="pad20">
               Hi! Welcome to my website. I am a recent computer science graduate
               at California State Univeristy, Monterey Bay.
-              Currently building this website and adding more details!
+              Currently working on this website and adding more details!
             </p>
           </div>
         </div>
@@ -35,17 +35,50 @@
 
     <div class="container-fluid software-img">
       <div class="container software-div">
-        <h1 class="left-title sub-title white" style="padding-top: 0px;">Software/Projects</h1>
+        <h1 class="left-title sub-title white" style="padding-top: 0px;">Software/Experience</h1>
         <div class="row">
           <div class="col-md-6 tile-pad-wide soft-tile-back col-1-pad">
-            <h3 class="white reg-title cen-X">C</h3>
+            <h3 class="white reg-title cen-X">Web</h3>
+            <h5 class="titleDesc sub-p-min white">Experience with HTML, CSS, and JavaScript. Used those tools and Bootsrap to create this website.</h5>
           </div>
+
+          <div class="col-md-6 tile-pad-wide soft-tile-back col-2-pad">
+            <h3 class="white reg-title cen-X">C++/Java</h3>
+            <h5 class="title-desc sub-p-min white">Proficient in object-orient design of
+              data structures and algorithm.
+            </h5>
+          </div>
+        </div>
+
+        <div class="row extra-space">
+          <div class="col-md-6 title-pad-wide soft-tile-back col-1-pad">
+            <h3 class="white reg-title cen-X">C</h3>
+            <h5 class="title-desc sub-p-min white">
+              1 year learning and developing efficient low-level programs.
+            </h5>
+          </div>
+
+          <!-- another skill -->
+          <div class="col-md-6 title-pad-wide soft-tile-back col-1-pad">
+            <h3 class="white reg-title cen-X">Python/ML</h3>
+            <h5 class="title-desc sub-p-min white">1 year developing and creating notebooks exploring data
+              science skills and machine learning methods.
+            </h5>
+          </div>
+          <a href="/softare" class="btn btn-outline-secondary btn-lg center-btn" role="button">Explore more</a>
         </div>
       </div>
     </div>
 
+    <div class="container-fluid">
+
+    </div>
 
     <% include partials/footer %> 
     <script src='/includes/jquery.min.js'></script>
+    <!-- odometer -->
+    <link rel="stylesheet" href="/includes/odometer-theme-default.css">
+    <script src="/includes/odometer.js"></script>
+    <script type="text/javascript" src="/scripts/main.js"></script>
   </body>
 </html>

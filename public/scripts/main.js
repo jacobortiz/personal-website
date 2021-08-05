@@ -1,11 +1,4 @@
-$(document).ready(textShift);
-$(window).resize(textShift);
-
-var path_toggle = 0;
-var psd_toggle = 0;
-
 $('.home-south').click(function() {
-    console.log('clicked!')
     var offset = 60;
     if($(window).width() < 992) {
         offset = 54;

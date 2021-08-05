@@ -7,9 +7,9 @@
 }
 
 body .scrollN, body .scrollN:hover {
-    font-size: 1em;
+    font-size: 1.1em;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Gravity-Regular';
 }
 
 .navbar-toggler-icon {

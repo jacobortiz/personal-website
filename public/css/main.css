@@ -13,6 +13,10 @@
     color: white;
 }
 
+.black {
+    color: black;
+}
+
 .center-img {
     display: block;
     margin-left: auto;
@@ -44,6 +48,7 @@
     padding-right: 60px;
     font-family: 'Courier New', Courier, monospace;
 }
+
 
 .ext-pad {
     padding: 60px;
@@ -77,7 +82,7 @@
     margin-bottom: 0px;
 }
 
-.text-center {
+.text-center, .cen-X {
     text-align: center;
 }
 
@@ -146,11 +151,11 @@
     .btn-links {
         padding-bottom: 0px;
     }
-    .extPad, .subP {
+    .ext-pad, .sub-p {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .subTitle {
+    .sub-title {
         padding-left: 20px;
     }
     .list-pad {
@@ -171,7 +176,7 @@
         font-family: "Gravity-Regular";
         font-size: 1em;
     }
-    .topPad {
+    .top-pad {
         padding-top: 120px;
     }
     .sub {
@@ -180,14 +185,14 @@
 
 }
 @media (max-width: 369px) {
-    .titleMain {
+    .title-main {
         font-size: 2em;
         letter-spacing: 0px;
     }
 }
 
 @media (min-width: 992px) {
-    .topPad {
+    .top-pad {
         padding-top: 200px;
     }
 }

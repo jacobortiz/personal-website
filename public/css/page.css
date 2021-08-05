@@ -4,7 +4,7 @@ body, html {
 }
 
 .home-img {
-    background-image: url("../images/bg3.jpeg");
+    background-image: url("/images/sunrise.jpeg");
 
     height: 100%;
     background-position: center;
@@ -21,6 +21,19 @@ body, html {
 .center-2 {
     width: 50%;
     margin: 0 auto;
+}
+
+.center-btn {
+    margin: 40px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-links .br-text {
+    display: inline-block;
+    color: #42536a;
 }
 
 .home-div {
@@ -42,6 +55,7 @@ body, html {
     position: absolute;
     left: calc(50% - 54px);
     top: calc(100% - 120px);
+    text-decoration: underline;
 }
 
 .smooth-scroll-btn {
@@ -61,6 +75,7 @@ body, html {
     outline: 0;
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;  
+    font-size: 1.1em;
 }
 
 .circle-img {
