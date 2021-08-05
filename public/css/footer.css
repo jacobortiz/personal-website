@@ -1,0 +1,23 @@
+.footer {
+    background-color: #282828;
+    padding: 0px;
+}
+
+.social-icons li a img {
+    vertical-align: middle;
+    padding: 5px;
+    height: 50px;
+}
+
+.footer-text {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+}
+
+.bottom-links-div {
+    background-color: #282828;
+    padding: 30px;
+}
+

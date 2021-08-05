@@ -1,0 +1,192 @@
+.land-img {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec > .container {
+    padding-bottom: 60px;
+}
+
+.white {
+    color: white;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.width-100 {
+    width: 100%;
+}
+
+.sub-text, .list-pad li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+
+.sub-p {
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+.sub-p-min {
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ext-pad {
+    padding: 60px;
+    padding-top: 20px;
+}
+
+.list-pad li {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.list-pad {
+    padding: 40px;
+    padding-left: 100px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.min-pad-y {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sub-title {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 10px;
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 0px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.link-grey, .link-grey:hover {
+    padding: 6px;
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.back-dark {
+    background-color: #191919;
+}
+
+.title-main {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 15px;
+}
+
+.reg-title {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 5px;
+}
+
+.sub-T-2 {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 5px;
+}
+
+.btn-links .col-md-4 {
+    text-align: center;
+}
+
+.btn-links .col-md-4 p {
+    padding-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.left-center {
+    display: inline-block;
+    text-align: left;
+}
+
+/* Suitable for mobile devices */
+
+@media (max-width: 991px) {
+    .sub {
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .btn-links .bot {
+        padding-bottom: 60px;
+    }
+    .sub {
+        letter-spacing: 10px;
+    }
+    .btn-links {
+        padding-bottom: 0px;
+    }
+    .extPad, .subP {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .subTitle {
+        padding-left: 20px;
+    }
+    .list-pad {
+        padding-left: 40px;
+        padding-right: 0px;
+    }
+    .list-pad li {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 458px) {
+    .title-main {
+        letter-spacing: 10px;
+    }
+    .exText div h5 {
+        font-family: "Gravity-Regular";
+        font-size: 1em;
+    }
+    .topPad {
+        padding-top: 120px;
+    }
+    .sub {
+        letter-spacing: 0px;
+    }
+
+}
+@media (max-width: 369px) {
+    .titleMain {
+        font-size: 2em;
+        letter-spacing: 0px;
+    }
+}
+
+@media (min-width: 992px) {
+    .topPad {
+        padding-top: 200px;
+    }
+}
