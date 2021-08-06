@@ -1,8 +1,25 @@
-.land-img {
+.landImg {
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+/* 
+.sec div:first-of-type {
+    /* padding-top: 40px; */
+
+
+/* .sec > div:last-of-type {
+    padding-bottom: 60px;
+} */
+
+body .padtop0 {
+    padding-top: 0px;
+}
+
+body .pad-X0 {
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .sec > .container {
@@ -13,23 +30,22 @@
     color: white;
 }
 
-.black {
-    color: black;
-}
-
-.center-img {
+.centerImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+.pad-b-40 {
+    padding-bottom: 40px;
+}
 
-.width-100 {
+.w100 {
     width: 100%;
 }
 
-.sub-text, .list-pad li {
-    font-family: 'Courier New', Courier, monospace;
+.subText, .listPad li {
+    font-family: "Gravity-Regular";
     font-size: 1em;
     letter-spacing: 1px;
     margin: 0px;
@@ -38,7 +54,7 @@
 .sub-p {
     padding-left: 60px;
     padding-right: 60px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Gravity-Regular";
     font-size: 1em;
     letter-spacing: 1px;
 }
@@ -46,35 +62,39 @@
 .sub-p-min {
     padding-left: 60px;
     padding-right: 60px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Gravity-Regular";
 }
 
-
-.ext-pad {
+.extPad {
     padding: 60px;
     padding-top: 20px;
 }
 
-.list-pad li {
+.listPad li {
     padding: 20px;
     padding-top: 0px;
 }
 
-.list-pad {
+.listPad {
     padding: 40px;
     padding-left: 100px;
-    padding-right: 10px;
+    padding-top: 10px;
     padding-bottom: 10px;
     margin: 0px;
 }
 
-.min-pad-y {
+.minpadY {
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
+.padY40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .sub-title {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Gravity-Regular";
     letter-spacing: 10px;
     padding-left: 60px;
     padding-top: 60px;
@@ -82,7 +102,7 @@
     margin-bottom: 0px;
 }
 
-.text-center, .cen-X {
+.textCent, .center-text {
     text-align: center;
 }
 
@@ -93,44 +113,59 @@
     transform: translateX(-50%) translateY(-50%);
 }
 
-.link-grey, .link-grey:hover {
+.linkGrey, .linkGrey:hover {
     padding: 6px;
     color: gray;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Gravity-Regular";
 }
 
-.back-dark {
+.backDark {
     background-color: #191919;
 }
 
-.title-main {
-    font-family: 'Courier New', Courier, monospace;
-    letter-spacing: 8px;
-    font-size: 3.25em;
+.exText div h5 {
+    font-family: "Gravity-Regular";
+    font-size: 1.2em;
+}
+.exText div {
+    padding: 0px;
 }
 
-.reg-title {
-    font-family: 'Courier New', Courier, monospace;
+.round3 {
+    border-radius: 3px;
+}
+
+.main-title {
+    font-family: "Gravity-Regular";
+    letter-spacing: 20px;
+}
+
+.regular-title {
+    font-family: "Gravity-Regular";
     letter-spacing: 5px;
 }
 
-.sub-T-2 {
-    font-family: 'Courier New', Courier, monospace;
+.subT2 {
+    font-family: "Gravity-Regular";
     letter-spacing: 5px;
 }
 
-.btn-links .col-md-4 {
+.btnLinks .col-md-4 {
     text-align: center;
 }
 
-.btn-links .col-md-4 p {
+.btnLinks .col-md-4 p {
     padding-bottom: 10px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Gravity-Regular";
 }
 
-.left-center {
+.leftCenter {
     display: inline-block;
     text-align: left;
+}
+
+.btnLinks.extPad {
+    padding-bottom: 120px;
 }
 
 /* Suitable for mobile devices */
@@ -142,41 +177,41 @@
 }
 
 @media (max-width: 767px) {
-    .btn-links .bot {
+    .btnLinks .bot {
         padding-bottom: 60px;
     }
     .sub {
         letter-spacing: 10px;
     }
-    .btn-links {
+    .btnLinks {
         padding-bottom: 0px;
     }
-    .ext-pad, .sub-p {
+    .extPad, .sub-p {
         padding-left: 20px;
         padding-right: 20px;
     }
     .sub-title {
         padding-left: 20px;
     }
-    .list-pad {
+    .listPad {
         padding-left: 40px;
         padding-right: 0px;
     }
-    .list-pad li {
+    .listPad li {
         padding-left: 0px;
         padding-right: 0px;
     }
 }
 
 @media (max-width: 458px) {
-    .title-main {
+    .main-title {
         letter-spacing: 10px;
     }
     .exText div h5 {
         font-family: "Gravity-Regular";
         font-size: 1em;
     }
-    .top-pad {
+    .topPad {
         padding-top: 120px;
     }
     .sub {
@@ -185,14 +220,14 @@
 
 }
 @media (max-width: 369px) {
-    .title-main {
+    .main-title {
         font-size: 2em;
         letter-spacing: 0px;
     }
 }
 
 @media (min-width: 992px) {
-    .top-pad {
+    .topPad {
         padding-top: 200px;
     }
 }

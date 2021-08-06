@@ -1,0 +1,108 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.main-div {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-center {
+    padding-top: 150px;
+    width: 60%;
+    margin: auto;
+}
+
+.regular-title {
+    font-size: 1.6em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body .main-title {
+    padding-bottom: 100px;
+}
+
+.smT {
+    font-size: 1em;
+    letter-spacing: 1px;
+    /* padding-bottom: 20px; */
+}
+
+.pad-b-20 {
+    padding-bottom: 20px;
+}
+
+.padB60 {
+    padding-bottom: 60px;
+}
+
+.padB120 {
+    padding-bottom: 120px;
+}
+
+.main-title {
+    padding-bottom: 60px;
+}
+
+body .nav-scroll, body .nav-scroll:hover {
+    color: #101010;
+}
+
+.down{
+    padding-top: 5%;
+}
+
+.form-div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.email {
+    font-family: "Gravity-Regular";
+    font-style: oblique;
+}
+
+
+@media (max-height: 930px) {
+    .down {
+        padding: 0px;
+    }
+}
+
+@media (max-height: 785px) {
+    .main-center {
+        padding-top: 100px;
+    }
+    .regular-title {
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    .main-center {
+        padding-top: 60px;
+        width: 80%;
+    }
+    body .main-title {
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .regular-title {
+        font-size: 1em;
+        letter-spacing: 1px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    body .main-title {
+        padding-bottom: 10px;
+    }
+}

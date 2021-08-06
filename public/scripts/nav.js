@@ -1,11 +1,9 @@
 $(window).resize(navScroll);
 $(document).ready(navScroll);
 $(window).scroll(navScroll);
-var toggle = 0;
 
+var toggle = 0;
 var url = window.location.pathname;
-var filename = (url.substring(0, url.lastIndexOf('/')));
-filename = filename.substring(filename.lastIndexOf('/') + 1);
 
 function navScroll(){
     if($(window).width() >= 992) {
@@ -17,7 +15,7 @@ function navScroll(){
               $('#global-nav').css({
                   "padding":"0px"
               })
-              $(".scrollN").css({
+              $(".nav-scroll").css({
                   "color":"#101010",
                   "padding-bottom":"0px",
                   "padding-top":"0px"
@@ -25,20 +23,22 @@ function navScroll(){
             $('#global-nav').addClass('scrolled-nav');
 
         } else if (scrollTop < 100) {
-            $(".scrollN").css({
+            $(".nav-scroll").css({
                 "padding-bottom":"10px",
                 "padding-top":"10px"
             })
 
-            $(".scrollN").css({
-                "color":"white"
-            })
+            if(!(url === '/contact') && !(url === '/software')) {
+                $(".nav-scroll").css({
+                    "color": "white"
+                })
+            }
 
             $('#global-nav').removeClass('scrolled-nav');
           }
     }
     else {
-        $(".scrollN").css({
+        $(".nav-scroll").css({
             "color":"#101010",
             "padding-bottom":"10px",
             "padding-top":"10px"
@@ -54,6 +54,7 @@ function navScroll(){
 $(".navbar-toggler").click(function() {
     toggle++;
     if(toggle % 2 == 1) {
+        console.log("ACTIVE TOGGLE");
         $('#global-nav').removeClass('toggle-height');
     }
     else {

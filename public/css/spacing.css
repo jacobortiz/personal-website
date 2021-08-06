@@ -3,40 +3,22 @@
     padding-bottom: 120px;
 }
 
-body .pad-top-0 {
-    padding-top: 0px;
-}
-
-body .pad-X-0 {
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-.pad-20 {
-    padding: 20px;
-    padding-bottom: 4px;
-}
-
-.pad-Y-40 {
+.padY40 {
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-.pad-Y-60 {
+.padY60 {
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-.pad-X-0 {
+/* .pad-X0 {
     padding-left: 0px;
     padding-right: 0px;
-}
+} */
 
-.pad-B-40 {
-    padding-bottom: 40px;
-}
-
-@media(max-width: 991px) {
+@media (max-width: 991px) {
     .extra-space {
         padding-top: 60px;
         padding-bottom: 60px;

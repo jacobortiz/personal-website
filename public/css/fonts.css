@@ -17,3 +17,8 @@
     font-family: "Gravity-Book";
     src: url("/fonts/Gravity-Book.otf");
 }
+
+@font-face {
+    font-family: "Frisans-Std-Black";
+    src: url("/fonts/Frisans-Std-Black.otf");
+}
