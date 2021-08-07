@@ -65,7 +65,7 @@ body, html {
 
 .circle-img {
     border-radius: 50%;
-    height: 200px;
+    height: 300px;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -128,6 +128,10 @@ body, html {
     background-size: cover;
 }
 
+.about-me {
+    background-color: #282828;
+}
+
 .sub {
     font-family: "Gravity-Regular";
     letter-spacing: 10px;
@@ -150,9 +154,6 @@ body, html {
     color: #42536d;
 }
 
-.videoBack {
-    background-color: #E62117;
-}
 
 .center-btn {
     margin: 40px;
@@ -197,7 +198,6 @@ hr.bottom {
 }
 
 .electronicsBack {
-    /* background-image: url("../images/IMG_1716.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -218,19 +218,6 @@ hr.bottom {
     padding-bottom: 40px;
 }
 
-.learnFilmsBtn {
-    border-color: #ffdbdb;
-    background-color: #ffdbdb;
-    color: #E62117;
-}
-
-.learnFilmsBtn:hover {
-    -webkit-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-    background-color: white;
-    border-color: white;
-    color: #E62117;
-}
 
 .photoBack {
     /* background-image: url("../images/IMG_7509.JPG"); */
