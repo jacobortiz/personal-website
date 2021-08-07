@@ -13,6 +13,14 @@
     padding-bottom: 60px;
 }
 
+.marg-top1 {
+    margin-top: 1rem;
+}
+
+.marg-top3 {
+    margin-top: 3rem;
+}
+
 /* .pad-X0 {
     padding-left: 0px;
     padding-right: 0px;

@@ -167,8 +167,33 @@ body, html {
     padding-bottom: 40px;
 }
 
-.softwareTitle {
+.software-title {
     color: #b5b5b5;
+}
+
+.resume-div {
+    margin-top: 20px;
+    font-family: "Gravity-Regular";
+}
+
+.resume-div p {
+    font-size: 15px;
+	letter-spacing: 1.1px;
+	font-weight: 300
+}
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+  
+hr.bottom {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 3px solid rgba(0, 0, 0, 0.6);
 }
 
 .electronicsBack {
@@ -178,7 +203,7 @@ body, html {
     background-size: cover;
 }
 
-.centerTitle {
+.center-title {
     text-align: center;
     padding-bottom: 60px;
 }
@@ -240,15 +265,15 @@ body, html {
 }
 
 @media (min-width: 768px) {
-    .software-div, .electronicsDiv {
+    .software-div, .resume-div {
         padding-top: 60px;
         padding-bottom: 80px;
     }
-    .aboutMe {
+    .about-me {
         padding-top: 40px;
         padding-bottom: 40px;
     }
-    .tilePad {
+    .title-pad {
         padding: 10px;
         padding-top: 80px;
         padding-bottom: 80px;
@@ -261,14 +286,18 @@ body, html {
         padding-top: 60px;
         padding-bottom: 60px;
     }
-    .centerTitle {
+    .center-title {
         padding-bottom: 40px;
     }
 }
 
 @media (min-width: 992px) {
-    .videoBack div div .tilePadMin {
+    .videoBack div div .title-pad-min {
         padding-top: 40px;
         padding-bottom: 40px;
     }
+}
+
+.resume-link, .resume-link:hover {
+    color: inherit;
 }
