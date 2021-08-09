@@ -35,6 +35,21 @@ body .nav-scroll, body .nav-scroll:hover {
     font-style: oblique;
 }
 
+.software-icons {
+    padding: 30px;
+    text-align: center;
+}
+
+.software-icons li img {
+    vertical-align: middle;
+    height: 70px;
+    
+}
+
+.s-icons-in {
+    display: inline-block;
+    margin: 10px;
+}
 
 @media (max-height: 930px) {
     .down {
