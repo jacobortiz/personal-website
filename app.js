@@ -1,5 +1,3 @@
-"use strict";
-
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -12,6 +10,10 @@ var contactRouter = require('./routes/contact')
 var softwareRouter = require('./routes/software')
 
 var app = express();
+
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config();
+}
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
