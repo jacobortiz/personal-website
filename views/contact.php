@@ -7,5 +7,6 @@ $recipient = "jacobortiz90@gmail.com";
 $subject = "Contact Form";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $message, $mailheader) or die("Error!");
+header("Location: contact.ejs")
 echo "Thank You!";
 ?>
