@@ -10,8 +10,7 @@ router.get('/', function(req, res, next) {
 
 /* POST contact */
 router.post('/', function(req, res, next) {
-    console.log(process.env.EMAIL)
-    res.send('currently being worked on (:')
+    res.send(process.env.EMAIL)
 })
 
 module.exports = router
