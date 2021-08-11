@@ -21,7 +21,6 @@ router.post('/', function(req, res, next) {
     var email = req.body.email
     var message = req.body.message
 
-
     const transporter = nodemailer.createTransport({
         service: 'gmail', 
         auth: {
@@ -37,7 +36,7 @@ router.post('/', function(req, res, next) {
     var mail_options = {
         from: email,
         to: 'jacob@jacobortiz.io',
-        subject: `${name} ${surname} | New Message!`,
+        subject: `From: ${name} ${surname}, ${email} | New Message!`,
         text: message
     }
 
