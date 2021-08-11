@@ -17,7 +17,6 @@ router.get('/', function(req, res, next) {
 /* POST contact */
 router.post('/', function(req, res, next) {
     var name = req.body.name
-    var surname = req.body.surname
     var email = req.body.email
     var message = req.body.message
 
@@ -36,7 +35,7 @@ router.post('/', function(req, res, next) {
     var mail_options = {
         from: email,
         to: 'jacob@jacobortiz.io',
-        subject: `From: ${name} ${surname}, ${email} | New Message!`,
+        subject: `From: ${name}, ${email} | New Message!`,
         text: message
     }
 
