@@ -84,18 +84,6 @@ body, html {
     text-align: center;
 }
 
-.whiteText {
-    color: white;
-}
-
-.tileDesc {
-    text-align: center;
-    padding: 10px;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
 .center-links {
     padding: 0px;
     margin: 0px;
@@ -134,10 +122,6 @@ body, html {
     padding: 40px;
 }
 
-.tilePadMin {
-    padding: 10px;
-}
-
 .center-links > li > a {
     text-decoration: none;
 }
@@ -147,6 +131,9 @@ body, html {
     color: #515863;
 }
 
+.intro {
+    font-size: 20px;
+}
 
 .center-btn {
     margin: 40px;
@@ -190,12 +177,6 @@ hr.bottom {
     border-top: 3px solid rgba(0, 0, 0, 0.6);
 }
 
-.electronicsBack {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .center-title {
     text-align: center;
     padding-bottom: 60px;
@@ -211,15 +192,6 @@ hr.bottom {
     padding-bottom: 40px;
 }
 
-
-.photoBack {
-    /* background-image: url("../images/IMG_7509.JPG"); */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* padding-left: 0px;
-    padding-right: 0px; */
-}
 
 .backBlur {
     background-color: rgba(0,0,0,0.4);
@@ -272,12 +244,12 @@ hr.bottom {
 }
 
 @media (min-width: 992px) {
-    .videoBack div div .title-pad-min {
+    .title-pad-min {
         padding-top: 40px;
         padding-bottom: 40px;
     }
 }
 
-.resume-link, .resume-link:hover {
+.resume-links, .resume-links:hover {
     color: inherit;
 }
