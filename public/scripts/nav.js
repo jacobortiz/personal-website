@@ -1,62 +1,51 @@
-$(window).resize(navScroll);
 $(document).ready(navScroll);
-$(window).scroll(navScroll);
+$(window).resize(navScroll);
+$(window).scroll(navScroll)
 
-var toggle = 0;
-var url = window.location.pathname;
+var path = window.location.pathname;
 
-function navScroll(){
+function navScroll() {
     if($(window).width() >= 992) {
-        var scrollTop = 0;
-          scrollTop = $(window).scrollTop();
-           $('.counter').html(scrollTop);
+        var scroll_top = 0;
+        scroll_top = $(window).scrollTop();
+        $('.counter').html(scroll_top);
 
-          if (scrollTop >= 100) {
-              $('#global-nav').css({
-                  "padding":"0px"
-              })
-              $(".nav-scroll").css({
-                  "color":"#101010",
-                  "padding-bottom":"0px",
-                  "padding-top":"0px"
-              })
-            $('#global-nav').addClass('scrolled-nav');
-
-        } else if (scrollTop < 100) {
-            $(".nav-scroll").css({
-                "padding-bottom":"10px",
-                "padding-top":"10px"
+        if(scroll_top >= 100) {
+            $('#global-nav').css({
+                'padding':  '0px'
             })
 
-            if(!(url === '/contact') && !(url === '/software')) {
-                $(".nav-scroll").css({
-                    "color": "white"
+            $('.nav-scroll').css({
+                'color':    '#101010',
+                'padding-top':  '0px',
+                'padding-bottom':   '0px'
+            })
+
+            $('#global-nav').addClass('scrolled-nav')
+        } else if(scroll_top < 100) {
+            $('.nav-scroll').css({
+                'padding-top':  '10px',
+                'padding-bottom':   '10px'
+            })
+
+            if(!(path === '/contact') && !(path === '/software')) {
+                $('.nav-scroll').css({
+                    'color':    'white',
                 })
             }
-
             $('#global-nav').removeClass('scrolled-nav');
-          }
-    }
-    else {
-        $(".nav-scroll").css({
-            "color":"#101010",
-            "padding-bottom":"10px",
-            "padding-top":"10px"
+        }
+    } else {
+        $('.nav-scroll').css({
+            'color':    '#101010',
+            'padding-top':  '10px',
+            'padding-bottom':   '10px'
         })
+
         $('#global-nav').css({
-            "padding":"21px",
-            "padding-top":"8px",
-            "padding-bottom":"8px"
+            'padding':    '21px',
+            'padding-top':  '8px',
+            'padding-bottom':   '8px'
         })
     }
 }
-
-$(".navbar-toggler").click(function() {
-    toggle++;
-    if(toggle % 2 == 1) {
-        $('#global-nav').removeClass('toggle-height');
-    }
-    else {
-        $('#global-nav').addClass('toggle-height');
-    }
-});

@@ -1,10 +1,11 @@
 body, html {
     height: 100%;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 .home-img {
-    background-image: url("/images/sunrise.jpeg");
+    background-image: url("/images/tahoe.jpeg");
 
     height: 100%;
     background-position: center;
@@ -24,16 +25,8 @@ body, html {
 }
 
 .home-div {
-    font-family: "Gravity-Book";
+    font-family: -apple-system;
     color: white;
-}
-
-.homeMainTitle {
-    font-size: 3em;
-}
-
-.homesub-title {
-    font-size: 1em;
 }
 
 .home-south {
@@ -60,7 +53,7 @@ body, html {
     color: white;
     outline: 0;
     text-decoration: none;
-    font-family: "Gravity-Regular";
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .circle-img {
@@ -100,7 +93,7 @@ body, html {
     padding: 10px;
     padding-left: 5%;
     padding-right: 5%;
-    font-family: "Gravity-Regular";
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .center-links {
@@ -112,7 +105,7 @@ body, html {
 
 .center-links a {
     color: gray;
-    font-family: "Gravity-Regular";
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     transition: 0.2s ease-in-out;
 }
 
@@ -133,7 +126,7 @@ body, html {
 }
 
 .sub {
-    font-family: "Gravity-Regular";
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     letter-spacing: 10px;
 }
 
@@ -174,7 +167,7 @@ body, html {
 
 .resume-div {
     margin-top: 20px;
-    font-family: "Gravity-Regular";
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .resume-div p {
@@ -212,7 +205,7 @@ hr.bottom {
     text-align: left;
     vertical-align: middle;
     line-height: 50px;
-    font-family: "Gravity-Book";
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 2em;
     padding-left: 50px;
     padding-bottom: 40px;

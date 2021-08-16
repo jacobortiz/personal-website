@@ -1,16 +1,13 @@
-$(document).ready(textShift);
-$(window).resize(textShift);
+$(function() {
+    var top = $('.about-me').offset().top
+    $('.home-south').click(function() {
+        var offset = 60;
+        if($(window).width() < 992) {
+            offset = 54;
+        }
 
-$(".home-south").click(function() {
-    var offset = 60;
-    if($(window).width() < 992) {
-        offset = 54;
-    }
-    $('html,body').animate({
-        scrollTop: $(".about-me").offset().top - offset
-    }, 'slow');
+        $('html, body').animate({
+            scrollTop: top - offset
+        }, 50)
+    })
 });
-
-function textShift() {
-    var width = $(window).width();
-}
