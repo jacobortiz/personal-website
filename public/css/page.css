@@ -1,10 +1,11 @@
 body, html {
     height: 100%;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 .home-img {
-    background-image: url("/images/sunrise.jpeg");
+    background-image: url("/images/tahoe.jpeg");
 
     height: 100%;
     background-position: center;
@@ -24,16 +25,8 @@ body, html {
 }
 
 .home-div {
-    font-family: "Gravity-Book";
+    font-family: -apple-system;
     color: white;
-}
-
-.homeMainTitle {
-    font-size: 3em;
-}
-
-.homesub-title {
-    font-size: 1em;
 }
 
 .home-south {
@@ -60,7 +53,7 @@ body, html {
     color: white;
     outline: 0;
     text-decoration: none;
-    font-family: "Gravity-Regular";
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .circle-img {
@@ -91,18 +84,6 @@ body, html {
     text-align: center;
 }
 
-.whiteText {
-    color: white;
-}
-
-.tileDesc {
-    text-align: center;
-    padding: 10px;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-family: "Gravity-Regular";
-}
-
 .center-links {
     padding: 0px;
     margin: 0px;
@@ -112,7 +93,7 @@ body, html {
 
 .center-links a {
     color: gray;
-    font-family: "Gravity-Regular";
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     transition: 0.2s ease-in-out;
 }
 
@@ -133,16 +114,12 @@ body, html {
 }
 
 .sub {
-    font-family: "Gravity-Regular";
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     letter-spacing: 10px;
 }
 
 .tile-pad-wide {
     padding: 40px;
-}
-
-.tilePadMin {
-    padding: 10px;
 }
 
 .center-links > li > a {
@@ -154,6 +131,9 @@ body, html {
     color: #515863;
 }
 
+.intro {
+    font-size: 20px;
+}
 
 .center-btn {
     margin: 40px;
@@ -174,7 +154,7 @@ body, html {
 
 .resume-div {
     margin-top: 20px;
-    font-family: "Gravity-Regular";
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .resume-div p {
@@ -197,12 +177,6 @@ hr.bottom {
     border-top: 3px solid rgba(0, 0, 0, 0.6);
 }
 
-.electronicsBack {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .center-title {
     text-align: center;
     padding-bottom: 60px;
@@ -212,21 +186,12 @@ hr.bottom {
     text-align: left;
     vertical-align: middle;
     line-height: 50px;
-    font-family: "Gravity-Book";
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 2em;
     padding-left: 50px;
     padding-bottom: 40px;
 }
 
-
-.photoBack {
-    /* background-image: url("../images/IMG_7509.JPG"); */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* padding-left: 0px;
-    padding-right: 0px; */
-}
 
 .backBlur {
     background-color: rgba(0,0,0,0.4);
@@ -279,12 +244,12 @@ hr.bottom {
 }
 
 @media (min-width: 992px) {
-    .videoBack div div .title-pad-min {
+    .title-pad-min {
         padding-top: 40px;
         padding-bottom: 40px;
     }
 }
 
-.resume-link, .resume-link:hover {
+.resume-links, .resume-links:hover {
     color: inherit;
 }

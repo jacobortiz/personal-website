@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <% include partials/head  %> 
   <body>
     <% include partials/nav %>
@@ -11,7 +11,7 @@
       <div class="home-south">
         <h4><a class="stealth-link sub-p-min pad-X0" href="#">Read More</a></h4>
         <button class="smooth-scroll-btn" type="button">
-          <img src="/images/Down-Arrow-White.png" width="30"/>
+          <img src="/images/Down-Arrow-White.png" width="30" alt="down arrow"/>
         </button>
       </div>
     </div>
@@ -20,10 +20,10 @@
       <div class="container about-me">
         <div class="row row-pad">
           <div class="col-md-4">
-            <img src="/images/IMG_0628.jpeg" class="circle-img"/>
+            <img src="/images/IMG_0628.jpeg" class="circle-img" alt="avatar"/>
           </div>
           <div class="col-md-8">
-            <p class="pad-20 white">
+            <p class="intro pad-20 white">
               Hi! Welcome to my website. I am a recent computer science graduate
               at California State University, Monterey Bay. I have proficient skills in 
               Java, C/C++, Python, and JavaScript.
@@ -69,7 +69,11 @@
               science skills and machine learning methods.
             </h5>
           </div>
-          <a href="/software" class="btn btn-outline-secondary btn-lg center-btn" role="button">Explore more</a>
+
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <a href="/software" class="btn btn-outline-secondary btn-lg center-btn" role="button">Explore more</a>
+          </div>
+          
         </div>
       </div>
     </div>
@@ -82,34 +86,34 @@
         <div class="container text-center resume-div">
           <div class="starter-template">
             <h2 class="pb-0">Jacob Ortiz-Rodriguez</h2>
-            <p class="lead pb-4">jacobortiz90@gmail.com • <a class="resume-link" href="https://www.linkedin.com/in/jacortiz513/">LinkedIn</a> • (831) 521-3746 • (website here) • Seaside, CA</p>
-            <h5 class="text-left text-uppercase pb-0">Education</h5>
+            <p class="lead pb-4">jacobortiz90@gmail.com • <a class="resume-links" href="https://www.linkedin.com/in/jacortiz513/">LinkedIn</a> • (831) 521-3746 • <a class='resume-links' href="https://www.jacobortiz.io">jacobortiz.io</a> • Seaside, CA</p>
+            <h5 class="text-start text-uppercase pb-0">Education</h5>
             <hr class="bottom"/>
             <div class="row no-gutters">
-              <div class="col-sm-6 text-left h5"><strong>California State Univerisy, Monterey Bay</strong></div>
-              <div class="col-sm-6 text-right"><strong>Seaside, CA</strong></div>
+              <div class="col-sm-6 text-start h5"><strong>California State Univerisy, Monterey Bay</strong></div>
+              <div class="col-sm-6 text-end"><strong>Seaside, CA</strong></div>
             </div>
           </div>
           <div class="row no-gutters">
-            <div class="col-sm-6 text-left"><strong><em>Computer Science / Software Engineer</em></strong></div>
-            <div class="col-sm-6 text-right"><strong><em>August 2017 - May 2021</em></strong></div>
+            <div class="col-sm-6 text-start"><strong><em>Computer Science / Software Engineer</em></strong></div>
+            <div class="col-sm-6 text-end"><strong><em>August 2017 - May 2021</em></strong></div>
           </div>
-          <ul class="text-left marg-top1">
+          <ul class="text-start marg-top1">
             <li>Relevant Coursework: Algorithms, Software Engineer & Design, Data Science & Machine Learning, Operating Systems.</li>
           </ul>
 
 
-          <h5 class="text-left text-uppercase pb-0 marg-top3">Work Experience</h5>
+          <h5 class="text-start text-uppercase pb-0 marg-top3">Work Experience</h5>
           <hr class="bottom"/>
           <div class="row no-gutters">
-            <div class="col-sm-6 text-left h5"><strong>Montery Plaza Hotel &amp; Spa</strong></div>
-            <div class="col-sm-6 text-right"><strong>Monterey, CA</strong></div>
+            <div class="col-sm-6 text-start h5"><strong>Montery Plaza Hotel &amp; Spa</strong></div>
+            <div class="col-sm-6 text-end"><strong>Monterey, CA</strong></div>
           </div>
           <div class="row no-gutters">
-            <div class="col-sm-6 text-left"><strong><em>Banquet Houseperson/Server</em></strong></div>
-            <div class="col-sm-6 text-right"><em>July 2017 - March 2020</em></div>
+            <div class="col-sm-6 text-start"><strong><em>Banquet Houseperson/Server</em></strong></div>
+            <div class="col-sm-6 text-end"><em>July 2017 - March 2020</em></div>
           </div>
-          <ul class="text-left marg-top1">
+          <ul class="text-start marg-top1">
             <li>Responsible for completing and maintaining various banquet functions such as setting up chairs, tables, and 
               cleaning rooms for breakfast, dinner, wedding receptions, or other functions that the room needed.</li>
             <li>Picked up Banquet Event Order and implemented function setup and breakdown. Also ensured that set-ups are 
@@ -120,25 +124,25 @@
             <li>Occasionally filled-in as server when needed.</li>
           </ul>
 
-          <h5 class="text-left text-uppercase pb-0 marg-top3">Skills &amp; Interests </h5>
+          <h5 class="text-start text-uppercase pb-0 marg-top3">Skills &amp; Interests </h5>
           <hr class="bottom"/>
           <div class="row no-gutters">
-            <div class="col-sm-6 text-left h5"><strong>Skills</strong></div>
+            <div class="col-sm-6 text-start h5"><strong>Skills</strong></div>
           </div>
 
           <div class="row no-gutters">
-            <div class="col-sm-6 text-left"><strong><em>Technical:</em></strong></div>
+            <div class="col-sm-6 text-start"><strong><em>Technical:</em></strong></div>
           </div>
 
           <div class="row no-gutters marg-top1">
-            <div class="col-sm-6 text-left">
+            <div class="col-sm-6 text-start">
               <ul>
                 <li>C++</li>
                 <li>Java</li>
                 <li>HTML/CSS (Bootstrap)</li>
               </ul>
             </div>
-            <div class="col-sm-6 text-left">
+            <div class="col-sm-6 text-start">
               <ul>
                 <li>JavaScript (Node.js)</li>
                 <li>Python (ML)</li>
@@ -148,15 +152,15 @@
           </div>
 
           <div class="row no-gutters">
-            <div class="col-sm-6 text-left"><strong><em>Languages:</em></strong></div>
+            <div class="col-sm-6 text-start"><strong><em>Languages:</em></strong></div>
           </div>
           <div class="row no-gutters marg-top1">
-            <div class="col-sm-6 text-left">
+            <div class="col-sm-6 text-start">
               <ul>
                 <li>English</li>
               </ul>
             </div>
-            <div class="col-sm-6 text-left">
+            <div class="col-sm-6 text-start">
               <ul>
                 <li>Spanish</li>
               </ul>
@@ -164,11 +168,11 @@
           </div>
 
           <div class="row no-gutters marg-top1">
-            <div class="col-sm-6 text-left h5"><strong>Interests</strong></div>
+            <div class="col-sm-6 text-start h5"><strong>Interests</strong></div>
           </div>
 
           <div class="row no-gutters marg-top1">
-            <div class="col text-left">
+            <div class="col text-start">
               <ul>
                 <li>Playing my guitar and music, walking my dog. Currently learning how to incorporate machine learning methods into webapps. </li>
                 <li>Learning React JS and making a version of this site with that library</li>
@@ -176,17 +180,11 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <a href="/files/jacob-ortiz-resume.pdf" class="btn btn-outline-secondary btn-md center-btn" download="" target="_blank">Download PDF</a>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <a href="/files/jacob-ortiz-resume.pdf" class="btn btn-outline-secondary btn-lg center-btn" download="" target="_blank">Download PDF</a>
         </div>
       </div>
     </div>
-
-    <% include partials/footer %> 
-    <script src='/includes/jquery.min.js'></script>
-    <!-- odometer -->
-    <link rel="stylesheet" href="/includes/odometer-theme-default.css">
-    <script src="/includes/odometer.js"></script>
     <script type="text/javascript" src="/scripts/main.js"></script>
-  </body>
+    <% include partials/footer %> 
 </html>

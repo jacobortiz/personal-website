@@ -2,7 +2,7 @@
 <html lang="en">
     <% include partials/head %>
     <body>
-        <% include partials/nav %>
+        <% include partials/nav %>        
         <link rel="stylesheet" href="/css/contact.css">
         <div class="main-div">
             <div class="main-center">
@@ -17,9 +17,9 @@
                                 <div class="controls">
                                     <div class="row">
                                         <div class="col-md">
-                                            <div class="form-group">
+                                            <div class="form-group marg-top1">
                                                 <label for="form_name">Name *</label>
-                                                <input id="form_name" type="text" name="name" class="form-control" required="required" data-error="Name is required.">
+                                                <input id="form_name" type="text" name="name" class="form-control marg-top1" required="required" data-error="Name is required.">
                                                 <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
@@ -27,9 +27,9 @@
                                 
                                     <div class="row">
                                         <div class="col-md">
-                                            <div class="form-group">
+                                            <div class="form-group marg-top1">
                                                 <label for="form_email">Email *</label>
-                                                <input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Valid email is required.">
+                                                <input id="form_email" type="email" name="email" class="form-control marg-top1" required="required" data-error="Valid email is required.">
                                                 <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
@@ -37,13 +37,13 @@
 
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <div class="form-group">
+                                            <div class="form-group marg-top1">
                                                 <label for="form_message">Message *</label>
-                                                <textarea id="form_message" name="message" class="form-control" rows="4" required="required" data-error="Please,leave me a message."></textarea>
+                                                <textarea id="form_message" name="message" class="form-control marg-top1" rows="4" required="required" data-error="Please,leave me a message."></textarea>
                                                 <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
-                                        <div class="col-md-12">
+                                        <div class="col-md-12 marg-top1">
                                             <input type="submit" class="btn btn-secondary btn-send" value="Send message">
                                         </div>
                                     </div>
@@ -58,20 +58,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="row d-flex justify-content-center">
-                    <h5 class="email padY60">
+                <div class="d-flex justify-content-center">
+                    <h5 class="email padY60"> 
                         jacob@jacobortiz.io
                     </h5>    
                 </div>
-
-
             </div>
         </div>
-        <% include partials/footer %> 
-        <script src="/scripts/contact.js"></script>
-        <script src='/includes/jquery.min.js'></script>
-        <!-- odometer -->
-        <link rel="stylesheet" href="/includes/odometer-theme-default.css">
-        <script src="/includes/odometer.js"></script>
-    </body>
+    <% include partials/footer %> 
 </html>
