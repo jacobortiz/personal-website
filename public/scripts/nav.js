@@ -54,7 +54,6 @@ function navScroll(){
 $(".navbar-toggler").click(function() {
     toggle++;
     if(toggle % 2 == 1) {
-        console.log("ACTIVE TOGGLE");
         $('#global-nav').removeClass('toggle-height');
     }
     else {
